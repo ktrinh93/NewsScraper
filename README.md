@@ -1,6 +1,6 @@
 # NewsScraper
 
-This app utilizes MongoDB/mongoose to store web-scraped articles and respective notes and comments a user may make on the article. It also uses express for routing and cheerio for DOM manipulation.
+This app utilizes MongoDB/mongoose to store web-scraped articles and respective notes and comments a user may make on the article. It also uses express for routing and cheerio for DOM manipulation. See the NewsScraper Demo for an app demo. (This app was not deployed due to time limitations).
 
 The intended usage for the app was a forum-like implementation, where an article could be linked to numerous notes, all of which could be edited and deleted. Due to time constraints, the multiple notes per article feature was not implemented. Additionally, there is a bug where clicking an article after a note has been deleted from it will result in the note text fields to note show up momentarily.
 
